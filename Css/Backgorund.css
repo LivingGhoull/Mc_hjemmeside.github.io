@@ -1,29 +1,53 @@
 header{
     position: relative;
-    margin-top: 0%;
     background-color:rgb(77, 77, 77);
     border-bottom: 1px solid black;
+    height: 18%;
 }
 #login_opret{
     float: right;
-    margin-top: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-top: 3%;
 }
 #login_opret button{
-    width: 200%;
-}
-#Mc_choices{
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 20%;
 }
 #Logo{
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
+    width: 8%;
+    margin-left: 8%;
+}
+#Logo2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 4%;
+}
+#Mc_choices{
+    position: relative;
+    top: 50%;
+    left: 10%;
+    display: inline;
+}
+#Mc_choices input{
+    margin-left: 2px;
+    margin-right: 2px;
+    max-width: 10%;
+    min-width: 4%;
+}
+#Mc_choices button{
+    margin-left: 15px;
 }
 
 body{
     background-color: rgb(34, 34, 34);
     margin: 0;
+}
+#flere{
+    position: relative;
+    top: 69.55%;
+    left: 47%;
 }
 
 footer{
@@ -31,11 +55,15 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 10%;
     border-top: 1px solid black;
 }
-table{
+#footinfo{
     width: 100%;
 }
 td{
     text-align: center;
+}
+footer table{
+    table-layout: fixed;
 }
