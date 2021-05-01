@@ -1,0 +1,22 @@
+#Box_img{
+    float:left;
+    margin-left: 10%;
+    width: 30%;
+}
+#Box_info{
+    float:right;
+    margin-right: 20%;
+    width: 20%;
+}
+#Box_info, #Box_img{
+    border: 1px solid black;
+    margin-top: 2%;
+    display:inline;
+    height: 60%;
+    background-color: gray;
+    text-align: center;
+}
+
+#sælger{
+    margin-top: 20%;
+}

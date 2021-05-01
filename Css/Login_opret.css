@@ -10,11 +10,11 @@
     background-color: gray;
 }
 #box2{
-margin-left: 20%;
+margin-left: 15%;
 }
 
-#box2 button{
-    width: 100px;
+#box2 input{
+    height: 3%;
 }
 
 p{
