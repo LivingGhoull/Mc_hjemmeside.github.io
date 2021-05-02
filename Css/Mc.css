@@ -16,6 +16,9 @@
     background-color: gray;
     text-align: center;
 }
+#Box_info p{
+    font-size: 80%;
+}
 #Box_img{
     margin-top: 5%;
     display:inline;
